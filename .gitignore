@@ -1,0 +1,43 @@
+# Xcode
+.DS_Store
+build
+*.xcworkspace
+xcuserdata
+*.xcuserdatad
+*.xcscmblueprint
+*.xccheckout
+*.xcscheme
+*.ipa
+*.xcarchive
+
+# Cocoapods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+Carthage/Checkouts/
+
+# SwiftLint
+.swiftlint.yml
+
+# Editor Preferences
+*.pbxuser
+*.mode1v3
+*.mode2v3
+
+# Temporary Files
+*.swp
+*.hmap
+*.symtab
+*~
+*.nib
+
+# Logs
+*.log
+
+# User-specific files
+*.entitlements
+
+# Other
+*.playground

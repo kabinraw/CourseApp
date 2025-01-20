@@ -28,3 +28,11 @@ enum Tab: String {
     case notifications
     case library
 }
+
+struct TabPrefereceKey: PreferenceKey {
+    typealias Value = CGFloat
+    static let defaultValue: Value = 0
+    static func reduce(value: inout Value, nextValue: () -> Value) {
+        value = nextValue()
+    }
+}

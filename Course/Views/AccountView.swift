@@ -58,7 +58,7 @@ struct AccountView: View {
 
     var menu: some View {
         Section {
-            NavigationLink(destination: ContentView()) {
+            NavigationLink(destination: HomeView()) {
                 Label("Setting", systemImage: "gear")
             }
 
@@ -69,7 +69,7 @@ struct AccountView: View {
             }
 
             NavigationLink {
-                ContentView()
+                HomeView()
             } label: {
                 Label("Help", systemImage: "questionmark")
             }

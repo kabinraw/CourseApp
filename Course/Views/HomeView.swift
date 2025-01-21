@@ -1,13 +1,13 @@
 //
-//  ContentView.swift
+//  HomeView.swift
 //  Course
 //
-//  Created by Kabindra on 1/16/25.
+//  Created by Kabindra on 1/21/25.
 //
 
 import SwiftUI
 
-struct ContentView: View {
+struct HomeView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
             Spacer()
@@ -69,10 +69,9 @@ struct ContentView: View {
                 .frame(height: 230)
                 .offset(x: 32, y: -80)
         }
-
     }
 }
 
 #Preview {
-    ContentView()
+    HomeView()
 }
